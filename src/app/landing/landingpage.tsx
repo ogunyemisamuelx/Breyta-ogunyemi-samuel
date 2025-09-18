@@ -23,7 +23,7 @@ const LandingPage = () => {
         </div>
 
         {/* RIGHT - HERO IMAGE */}
-        <div className="lg:w-1/2 w-full flex justify-center">
+        <div className="lg:w-1/2 w-full flex justify-center mb-[80px]">
           <div className="w-full max-w-[800px] h-[250px] md:h-[400px] border rounded-md bg-[#EDEAF1]">
             <Image
               src="/vid.png"
