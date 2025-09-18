@@ -37,7 +37,7 @@ const LandingPage = () => {
       </div>
 
       {/* TRUST BADGES */}
-      <div className="w-full flex flex-wrap justify-center mt-16 gap-10 text-center text-[15px] md:text-[17px]">
+      <div className="w-full flex flex-wrap justify-center mt-[70px] gap-10 text-center text-[15px] md:text-[17px]">
         <div className="flex items-center gap-2">
           <Shield className="text-purple-700" /> SOC 2 Type II
         </div>
