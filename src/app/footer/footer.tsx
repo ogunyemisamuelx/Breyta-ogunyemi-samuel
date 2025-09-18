@@ -49,7 +49,17 @@ const Footer = () => {
           <FaInstagram className="cursor-pointer hover:text-white" />
           <FaFacebook className="cursor-pointer hover:text-white" />
         </div>
-        <p className="mt-6 md:mt-0">Copyright © 2025 Breyta AS.</p>
+        <p className="mt-6 md:mt-0">
+          <div>Copyright © 2025 Breyta AS.</div>
+          <div>
+            <div className="flex gap-1">
+              {" "}
+              <h2>Cloned: </h2>
+              <div> LandingPage</div>
+            </div>
+            <div>Built with ❤️ by Ogunyemi Samuel</div>
+          </div>
+        </p>
       </div>
     </footer>
   );
