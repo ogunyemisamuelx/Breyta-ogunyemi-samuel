@@ -72,7 +72,7 @@ const Header = () => {
           />
           {/* {absolute} */}
           {togglebox && (
-            <div className=" absolute  left-0 lg:hidden w-full bg-white h-[500px] items-center justify-center">
+            <div className=" absolute  left-0 lg:hidden w-full  bg-[#FFFC92] mt-4  h-[500px] items-center justify-center">
               <div className="flex gap-8 cursor-pointer items-center">
                 {/* Left Nav */}
                 <div className="gap-6 w-full flex items-center justify-center flex-col">
@@ -92,13 +92,6 @@ const Header = () => {
                         }`}
                       />
                     </div>
-                    {toggle && (
-                      <div className="absolute bg-[#FFFC92] w-[250px] rounded-md flex flex-col justify-center p-4 gap-4 border mt-3 shadow-md">
-                        <p>AI-driven qualitative data analysis</p>
-                        <p>Automatic transcription</p>
-                        <p>AI-driven research repository</p>
-                      </div>
-                    )}
                   </div>
                   <nav>Resources</nav>
                   <nav>Get a demo</nav>
